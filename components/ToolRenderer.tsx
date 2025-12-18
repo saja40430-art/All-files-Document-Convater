@@ -9,6 +9,7 @@ interface ToolRendererProps {
 
 const ToolRenderer: React.FC<ToolRendererProps> = ({ toolId }) => {
   switch (toolId) {
+    case 'blogger-ai': return <ToolComponents.AIBlogger />;
     case 'img-conv': return <ToolComponents.ImageConverter />;
     case 'img-comp': return <ToolComponents.ImageCompressor />;
     case 'img-crop': return <ToolComponents.ImageCropper />;
