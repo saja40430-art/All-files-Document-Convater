@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sajahan Egay Convater All Tool</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --bg-dark: #1E1E2F;
+      --text-light: #EAEAEA;
+      --header-bg: #2B2D42;
+      --accent: #FFD700;
+      --card-bg: #3A3D5B;
+      --accent-hover: #E6C200;
+    }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Inter', sans-serif;
+    }
+    .tool-card {
+      transition: all 0.3s ease;
+      background-color: var(--card-bg);
+    }
+    .tool-card:hover {
+      background-color: var(--accent);
+      color: var(--bg-dark);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+    }
+    .tool-card:hover button {
+      background-color: var(--bg-dark);
+      color: var(--accent);
+    }
+    .modal-overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(4px);
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

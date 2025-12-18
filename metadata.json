@@ -1,0 +1,7 @@
+{
+  "name": "Sajahan Egay Convater All Tool",
+  "description": "A premium multi-tool hub featuring 20 functional tools including image processing, converters, calculators, and productivity utilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
